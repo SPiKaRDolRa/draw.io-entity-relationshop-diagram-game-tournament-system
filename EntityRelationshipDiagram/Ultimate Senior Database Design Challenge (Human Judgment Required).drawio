@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.6" pages="2">
+  <diagram name="Player / Avatar Module" id="eCHc785XtO_3VPF0_x_0">
+    <mxGraphModel dx="2593" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="suNSnzK30uvA7-pEcgjc-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="155" y="200" width="540" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-1" value="Player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-24">
+          <mxGeometry x="50" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-2" value="id (PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-3" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-4" value="email" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-1">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=1;" edge="1" parent="suNSnzK30uvA7-pEcgjc-24" source="suNSnzK30uvA7-pEcgjc-5" target="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-5" value="AvatarTemplate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-24">
+          <mxGeometry x="330" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-6" value="id (PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-5">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-7" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-5">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-8" value="default_behavior" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-5">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-9" value="AvatarInstance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-24">
+          <mxGeometry x="330" y="200" width="160" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-10" value="id (PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-11" value="player_id (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-12" value="avatar_template_id (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-13" value="tournament_id (FK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-14" value="identity_hash (string)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-15" value="behavior_config (JSON)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="176" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-16" value="is_ai (boolean)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-9">
+          <mxGeometry y="206" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-17" value="&lt;h3 class=&quot;&quot; data-end=&quot;2390&quot; data-start=&quot;2370&quot;&gt;������ แนวคิดที่ใช้:&lt;/h3&gt;&lt;div class=&quot;overflow-x-auto contain-inline-size&quot;&gt;&lt;table data-end=&quot;2795&quot; data-start=&quot;2392&quot;&gt;&lt;thead data-end=&quot;2411&quot; data-start=&quot;2392&quot;&gt;&lt;tr data-end=&quot;2411&quot; data-start=&quot;2392&quot;&gt;&lt;th data-end=&quot;2401&quot; data-start=&quot;2392&quot;&gt;Entity&lt;/th&gt;&lt;th data-end=&quot;2411&quot; data-start=&quot;2401&quot;&gt;อธิบาย&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody data-end=&quot;2795&quot; data-start=&quot;2432&quot;&gt;&lt;tr data-end=&quot;2467&quot; data-start=&quot;2432&quot;&gt;&lt;td&gt;&lt;code data-end=&quot;2442&quot; data-start=&quot;2434&quot;&gt;Player&lt;/code&gt;&lt;/td&gt;&lt;td&gt;- ผู้ใช้งานระบบ (1 คน)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2548&quot; data-start=&quot;2468&quot;&gt;&lt;td&gt;&lt;code data-end=&quot;2486&quot; data-start=&quot;2470&quot;&gt;AvatarTemplate&lt;/code&gt;&lt;/td&gt;&lt;td&gt;- เหมือนแบบฟอร์ม/โมเดลของ Avatar ที่ Player เลือกหรือฝึกไว้&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2649&quot; data-start=&quot;2549&quot;&gt;&lt;td&gt;&lt;code data-end=&quot;2567&quot; data-start=&quot;2551&quot;&gt;AvatarInstance&lt;/code&gt;&lt;/td&gt;&lt;td&gt;- แต่ละ Tournament จะมี Avatar เป็น &lt;em data-end=&quot;2614&quot; data-start=&quot;2604&quot;&gt;Instance&lt;/em&gt; ใหม่ (สามารถมี behavior ต่างกัน)&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2717&quot; data-start=&quot;2650&quot;&gt;&lt;td&gt;&lt;code data-end=&quot;2667&quot; data-start=&quot;2652&quot;&gt;identity_hash&lt;/code&gt;&lt;/td&gt;&lt;td&gt;- ใช้ distinguish ตัว Avatar ในแต่ละ Tournament&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2795&quot; data-start=&quot;2718&quot;&gt;&lt;td&gt;&lt;code data-end=&quot;2737&quot; data-start=&quot;2720&quot;&gt;behavior_config&lt;/code&gt;&lt;/td&gt;&lt;td&gt;- JSON ที่เก็บค่าการตั้งค่า AI, Skill, Parameter ต่าง ๆ&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&amp;nbsp;is_ai&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - ใช้สำหรับ Identify ว่า Avatar ตัวนั้นๆเป็น Player หรือ Ai ในขณะนั้นๆ เพื่อ Watching&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;overflow-x-auto contain-inline-size&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;overflow-x-auto contain-inline-size&quot;&gt;&lt;h3 class=&quot;&quot; data-end=&quot;2830&quot; data-start=&quot;2802&quot;&gt;✅ เหตุผลที่ออกแบบแบบนี้:&lt;/h3&gt;&lt;ul data-end=&quot;3060&quot; data-start=&quot;2832&quot;&gt;&lt;li class=&quot;&quot; data-end=&quot;2901&quot; data-start=&quot;2832&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;2901&quot; data-start=&quot;2834&quot;&gt;แยก &lt;code data-end=&quot;2854&quot; data-start=&quot;2838&quot;&gt;AvatarTemplate&lt;/code&gt; ออกมา → ทำให้เราสามารถ “re-use” แบบ Avatar ได้&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;2979&quot; data-start=&quot;2902&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;2979&quot; data-start=&quot;2904&quot;&gt;มี &lt;code data-end=&quot;2923&quot; data-start=&quot;2907&quot;&gt;AvatarInstance&lt;/code&gt; ผูกกับ Tournament(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tournament_id)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;ทำให้ชื่อซ้ำได้, พฤติกรรมเปลี่ยนได้&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;3060&quot; data-start=&quot;2980&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;3060&quot; data-start=&quot;2982&quot;&gt;เก็บ config เป็น JSON → รองรับ behavior ที่เปลี่ยนตลอดเวลาโดยไม่ต้องแก้ schema&lt;/p&gt;&lt;/li&gt;&lt;li class=&quot;&quot; data-end=&quot;3060&quot; data-start=&quot;2980&quot;&gt;&lt;p class=&quot;&quot; data-end=&quot;3060&quot; data-start=&quot;2982&quot;&gt;มี is_ai เพื่อนำออกมานอกสุดง่ายต่อการ watching และเปลี่ยนแปลงตลอดเวลา เช่น&lt;br&gt;เกมส์ csgo : ถ้าหาก player หลุดการเชื่อมต่อกับ Avatar ข้อมูล player ที่เก็บไว้ก็อาจจะยังใช้อยู่&lt;br&gt;และ avatar ก็ยังคงทำงานได้โดยการเปลี่ยน is_ai เป็น true เพื่อให้ AI เข้ามาทำงานแทน player&lt;br&gt;รวมถึงตรวจสอบการส่อง bahavior สำหรับ AI ที่มีการเปลี่ยนแปลงไปได้ตลอดเวลา&lt;/p&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="suNSnzK30uvA7-pEcgjc-24">
+          <mxGeometry y="390" width="540" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="suNSnzK30uvA7-pEcgjc-24" source="suNSnzK30uvA7-pEcgjc-7" target="suNSnzK30uvA7-pEcgjc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="suNSnzK30uvA7-pEcgjc-25" value="Module 1:&amp;nbsp;Player / Avatar" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="299" y="80" width="252" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oKRVI0621IvB9wY_2_l8" name="Page-2">
+    <mxGraphModel dx="582" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
