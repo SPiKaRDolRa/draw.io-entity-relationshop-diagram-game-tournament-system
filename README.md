@@ -1,1 +1,1 @@
-# draw.io-entity-relationshop-diagram-game-tournament-system
+# draw.io-entity-relationship-diagram-game-tournament-system
